@@ -65,4 +65,30 @@ html {
   outline: unset;
   font-weight: 700;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.add {
+  padding: 16px;
+}
+
+.add-form {
+  display: flex;
+  align-items: center;
+  flex-direction: flex-start;
+}
+.add-btn {
+  font-size: 1.8rem;
+  padding: 16px;
+  background: unset;
+  border: unset;
+  cursor: pointer;
+}
+.add-input {
+  background: unset;
+  border: unset;
+  padding: 0 64px;
+  flex: 1;
+  border-bottom: 1px solid var(--main-red-color);
+  font-size: 16px;
 }
