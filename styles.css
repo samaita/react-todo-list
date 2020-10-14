@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #ccc;
+  height: 100vh;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.frame {
+  height: 100%;
+  border: 1px solid #bbb;
+}
